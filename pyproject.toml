@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flexible-nn"
+version = "0.1.0"
+description = "A flexible neural network built from scratch using NumPy"
+authors = [{name = "Himanshu Upadhyay"}]
+license = {text = "MIT"}
+dependencies = ["numpy", "pandas"]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["flexible_nn"]
